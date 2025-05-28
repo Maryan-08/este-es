@@ -1,6 +1,6 @@
 <!-- R Commander Markdown Template -->
 
-computación estadistica
+computaciÃ³n estadistica y r
 =======================
 
 ### Usuario
@@ -8,7 +8,7 @@ computación estadistica
 ### `r as.character(Sys.Date())`
 
 ```{r echo=FALSE}
-# incluya este fragmento de código literalmente para especificar las opciones
+# incluya este fragmento de cÃ³digo literalmente para especificar las opciones
 knitr::opts_chunk$set(comment=NA, prompt=TRUE, out.width=750, fig.height=8, fig.width=8)
 library(Rcmdr)
 library(car)
@@ -16,7 +16,7 @@ library(RcmdrMisc)
 ```
 
 
-### Test de correlación: fnocig, mnocig
+### Test de correlaciÃ³n: fnocig, mnocig
 ```{r}
 with(INFERENCIAL, cor.test(fnocig, mnocig, alternative="two.sided", 
   method="pearson"))
